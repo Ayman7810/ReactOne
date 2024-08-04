@@ -51,7 +51,7 @@ const App = () => {
         <BrowserRouter>
           <Routes>
             <Route
-              path="/"
+              path="/home"
               element={
                 <MoviesLest
                   DataMovies={dataMovies}
